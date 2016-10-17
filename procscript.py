@@ -63,6 +63,7 @@ if __name__ == "__main__":
     """
     
     #faster, more "pythonic" but equivalent to params
+    #badass list comprehension
     paramscomprehension = [(r, refl, pair[0]+pair[1], list(perm)) for refl in ALLREFLECTORS for perm in ALLRINGS for r in ALLROTORS for pair in ALLPAIRSTUPLE]
     print (len(paramscomprehension))
     p.starmap(enigma_thang, paramscomprehension)
